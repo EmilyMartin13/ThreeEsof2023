@@ -49,9 +49,6 @@ p {
     background-color: white;
     border-radius: 20px;
 
-
-
-
 }
 
 h1 {
@@ -74,13 +71,23 @@ h2 {
     font-family: 'Playpen Sans', regular 400, bold 700;
 }
 
+h3 {
+    font-size: 25px;
+    line-height: 1.5;
+    color: black;
+    text-align: center;
+    margin: 30px;
+    font-family: 'Playpen Sans', regular 400, bold 700;
+}
+
 .main-text {
     text-align: center;
     margin: 30px;
-
-
 }
 
+.engagement-story {
+text-align: center;
+}
 
 
 .logo-image {
@@ -230,8 +237,7 @@ div#slider figure {
 }
 
 footer {
-    text-align: center;
-    text-align: justify;
+    text-align: center justify;
     width: 1000px;
     height: 120px;
     border: 6px solid #FA824B;
@@ -245,4 +251,16 @@ footer {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+.multiple-pics {
+    width: 8000 px;
+}
+
+.two-small {
+    width: 400px;
+    padding-right: 35px;
+    padding-left: 35px;
+    object-position: center;
+
 }
