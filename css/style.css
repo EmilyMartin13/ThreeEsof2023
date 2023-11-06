@@ -2,7 +2,7 @@ body,
 html {
     min-height: 100vh;
     margin: 0;
-    background-color: #f9c28f
+    background-color: white
 }
 
 img {
@@ -40,16 +40,7 @@ p {
     text-align: center;
 }
 
-.header {
-    text-align: center;
-    width: 1000px;
-    height: 170px;
-    border: 12px solid #FA824B;
-    margin: 10px;
-    background-color: white;
-    border-radius: 20px;
 
-}
 
 h1 {
     font-size: 60px;
@@ -91,15 +82,31 @@ h3 {
 
 
 .logo-image {
-    max-width: 20%;
-    max-height: 20%;
+    max-width: 180px;
+    max-height: 190px;
     position: absolute;
-    top: 10px;
+    top: 15px;
     right: 10px;
-    padding-top: 5px;
-    padding-bottom: 20px;
-    border-radius: 200px;
+    padding-bottom: 15px;
+    border-radius: 50px;
 
+
+}
+
+.heading-logo {
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FA824B;
+    padding: 30px;
+}
+
+.header {
+    max-width: 1900px;
 }
 
 mark {
@@ -139,9 +146,8 @@ mark {
         left: -300%;
     }
 
-    98% {
-        left: -400%;
-    }
+
+
 }
 
 body {
@@ -165,6 +171,11 @@ div#slider figure {
     text-align: left;
     font-size: 0;
     animation: 13s slidy infinite;
+}
+
+.image-slider {
+    max-width: 90%;
+    margin: auto;
 }
 
 #primary_nav_wrap {
@@ -262,5 +273,14 @@ footer {
     padding-right: 35px;
     padding-left: 35px;
     object-position: center;
+
+}
+
+.main-page {
+    max-width: 600px;
+    background-color: #F3C29F;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
 
 }
