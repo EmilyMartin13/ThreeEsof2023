@@ -152,8 +152,8 @@ mark {
         left: -400%;
     }
 
-    
-    
+
+
 
 
 
@@ -284,10 +284,16 @@ a:active {
 }
 
 .big-images {
-max-width: 95%;
-margin: auto;
+    max-width: 95%;
+    margin: auto;
 }
 
+.grid-parent {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 5px;
+
+}
 
 @media screen and (max-width: 600px) {
     h1 {
