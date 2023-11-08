@@ -266,7 +266,7 @@ a:active {
 }
 
 
-.button {
+.button1 {
     max-width: 350px;
     max-height: 120px;
     border-radius: 20px;
@@ -276,76 +276,102 @@ a:active {
     justify-content: space-between;
     align-items: center;
     display: inline-block;
-    /* Make the boxes sit on the same line */
-}
-
-.attention-grabber {
-    padding: 30px;
-}
-
-.big-images {
-    max-width: 95%;
-    margin: auto;
-}
-
-.grid-parent {
-    display: grid;
-    grid-template-columns: 100px 100px 100px;
-    grid-gap: 5px;
 
 }
 
-@media screen and (max-width: 600px) {
-    h1 {
+button {
+    max-width: 350px;
+    max-height: 120px;
+    border-radius: 20px;
+    background-color: #FA824B;
+    padding: 10px;
+    margin: 20px;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-block;
 
-        font-size: 20px;
-        color: black;
+    .alt-button {
+        background-color: #FAB483
     }
 
-    h2 {
-        font-size: 20px;
+    .attention-grabber {
+        padding: 30px;
     }
 
-    h3 {
-        font-size: 18px;
+    .big-images {
+        max-width: 95%;
+        margin: auto;
     }
 
-    p {
-        font-size: 14px;
-    }
-}
-
-
-@media screen and (max-width: 800px) {
-    h1 {
-        font-size: 35px;
-
-    }
-
-    h2 {
-        font-size: 30px;
-    }
-
-    h3 {
-        font-size: 20px;
-    }
-
-    p {
-        font-size: 20px;
-    }
-}
-
-@media screen and (max-width: 1280px) {
-    h1 {
-        font-size: 55px;
+    .grid-parent {
+        max-width: 85%;
+        display: grid;
+        grid-template-columns: 31% 31% 31%;
+        grid-gap: 10px;
+        margin: auto;
+        padding-left: 10px;
+        padding-right: 10px;
 
     }
 
-    h3 {
-        font-size: 20px;
+    .culture-shock {
+        padding: 20px;
+        margin: auto;
+        text-align: center;
+        max-width: 90%;
     }
 
-    p {
-        font-size: 18px;
+    @media screen and (max-width: 600px) {
+        h1 {
+
+            font-size: 20px;
+            color: black;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        h3 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 14px;
+        }
     }
-}
+
+
+    @media screen and (max-width: 800px) {
+        h1 {
+            font-size: 35px;
+
+        }
+
+        h2 {
+            font-size: 30px;
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+
+    @media screen and (max-width: 1280px) {
+        h1 {
+            font-size: 55px;
+
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
