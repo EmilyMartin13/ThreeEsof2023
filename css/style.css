@@ -21,6 +21,7 @@ img {
 p {
     font-size: 20px;
     line-height: 1.5;
+    text-indent: 25px;
     color: light-grey;
     text-align: left;
     padding-top: 20px;
@@ -30,16 +31,12 @@ p {
     font-family: 'poppins', regular 400, sans-serif, bold 700, bold 700 italic;
 }
 
-.engagement-image {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 60px;
-    padding-right: 60px;
+.engagement-image {  
+    max-width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
-    width: 80%;
-    height: 80%;
-    font-size: 14px;
-    text-align: center;
 }
 
 
@@ -61,8 +58,10 @@ h2 {
     line-height: 1.5;
     color: black;
     text-align: center;
-    margin: 30px;
+    margin: auto;
     font-family: 'Playpen Sans', regular 400, bold 700;
+    max-width: 800px;
+    padding: 15px;
 }
 
 h3 {
@@ -202,14 +201,15 @@ footer {
 }
 
 .multiple-pics {
-    width: 8000 px;
+    max-width: 100%;
 }
 
 .two-small {
-    width: 400px;
-    padding-right: 35px;
-    padding-left: 35px;
+    max-width: 220px;
+    max-height: 800px;
+    padding: 10px;
     object-position: center;
+    
 
 }
 
