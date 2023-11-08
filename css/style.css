@@ -268,9 +268,11 @@ a:active {
     /* Make the boxes sit on the same line */
 }
 
+
 @media screen and (max-width: 600px) {
     h1 {
-        font-size: 25px;
+
+        font-size: 20px;
         color: black;
     }
 
@@ -285,8 +287,8 @@ a:active {
     p {
         font-size: 14px;
     }
-
 }
+
 
 @media screen and (max-width: 800px) {
     h1 {
@@ -312,7 +314,6 @@ a:active {
         font-size: 55px;
 
     }
-
 
     h3 {
         font-size: 20px;
