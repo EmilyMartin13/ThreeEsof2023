@@ -217,6 +217,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    padding: 20px;
 }
 
 .multiple-pics {
@@ -244,7 +245,7 @@ footer {
 .page-links {
     max-width: 45%;
     margin: auto;
-
+    margin-top: 50px;
     justify-content: space-between;
     padding: 10px;
     border-radius: 55px;
@@ -308,7 +309,7 @@ a:active {
     padding: 20px;
     margin: auto;
     text-align: center;
-    max-width: 90%;
+    max-width: 50%;
 }
 
 .space {
