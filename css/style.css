@@ -26,8 +26,6 @@ p {
     padding-top: 20px;
     padding-bottom: 20px;
     max-width: 800px;
-
-
     margin: 10;
     font-family: 'poppins', regular 400, sans-serif, bold 700, bold 700 italic;
 }
@@ -87,9 +85,6 @@ h3 {
     max-width: 100px;
     max-height: 190px;
     padding-bottom: 15px;
-
-
-
 }
 
 .logo-image img {
@@ -255,12 +250,12 @@ footer {
     max-width: 100%;
     max-height: 150px;
     color: white;
-    background-color:#FA824B;
+    background-color: #FA824B;
     padding: 20px;
     margin: auto;
-    
-    
-    
+
+
+
 }
 
 .centered-pictures {
@@ -290,3 +285,49 @@ footer {
     margin: auto;
 
 }
+
+.page-links {
+    max-width: 90%;
+    max-height: 100px;
+    border-radius: 30px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #FA824B;
+
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #FAB483
+}
+
+a:active {
+    text-decoration: none;
+    color: #FAC550
+}
+
+.button {
+    max-width: 350px;
+    max-height: 120px;
+    border-radius: 20px;
+    background-color: #FA824B;
+    padding: 10px; 
+    margin: 20px; 
+    justify-content: space-between;
+    align-items: center;
+    display: inline-block; /* Make the boxes sit on the same line */
+}
+
