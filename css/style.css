@@ -82,7 +82,7 @@ h3 {
 
 
 .logo-image {
-    max-width: 100px;
+    max-width: 11%;
     max-height: 190px;
     padding-bottom: 15px;
 }
@@ -300,6 +300,12 @@ a:active {
     margin: auto;
     text-align: center;
     max-width: 90%;
+}
+
+.space {
+    padding: 20px;
+    text-align: center;
+    margin: auto;
 }
 
 @media screen and (max-width: 600px) {
