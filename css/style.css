@@ -174,70 +174,7 @@ div#slider figure {
 .image-slider {
     max-width: 90%;
     margin: auto;
-}
-
-#primary_nav_wrap {
-    margin-top: 15px
-}
-
-#primary_nav_wrap ul {
-    list-style: none;
-    position: relative;
-    display: flex;
-    margin: 0;
-    padding: 0
-}
-
-#primary_nav_wrap ul a {
-    display: block;
-    color: #333;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 32px;
-    padding: 0 15px;
-    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-#primary_nav_wrap ul li {
-    position: relative;
-    margin: 0;
-    padding: 0
-}
-
-#primary_nav_wrap ul li.current-menu-item {
-    background: #ddd
-}
-
-#primary_nav_wrap ul li:hover {
-    background: #f6f6f6
-}
-
-#primary_nav_wrap ul ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background: #fff;
-    padding: 0
-}
-
-#primary_nav_wrap ul ul li {
-    width: 200px
-}
-
-#primary_nav_wrap ul ul a {
-    line-height: 120%;
-    padding: 10px 15px
-}
-
-#primary_nav_wrap ul ul ul {
-    top: 0;
-    left: 100%
-}
-
-#primary_nav_wrap ul li:hover>ul {
-    display: block
+    padding: 40px;
 }
 
 .current-menu-item {
@@ -248,13 +185,12 @@ div#slider figure {
 footer {
     text-align: center;
     max-width: 100%;
-    max-height: 150px;
+    max-height: 200px;
     color: white;
     background-color: #FA824B;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin: auto;
-
-
 
 }
 
@@ -324,10 +260,65 @@ a:active {
     max-height: 120px;
     border-radius: 20px;
     background-color: #FA824B;
-    padding: 10px; 
-    margin: 20px; 
+    padding: 10px;
+    margin: 20px;
     justify-content: space-between;
     align-items: center;
-    display: inline-block; /* Make the boxes sit on the same line */
+    display: inline-block;
+    /* Make the boxes sit on the same line */
 }
 
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 25px;
+        color: black;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 35px;
+
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    h1 {
+        font-size: 55px;
+
+    }
+
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
