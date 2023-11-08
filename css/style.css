@@ -7,6 +7,7 @@ html {
 
 img {
     max-width: 100%;
+
 }
 
 .padding {
@@ -31,7 +32,7 @@ p {
     font-family: 'poppins', regular 400, sans-serif, bold 700, bold 700 italic;
 }
 
-.engagement-image {  
+.engagement-image {
     max-width: 95%;
     display: block;
     margin-left: auto;
@@ -115,33 +116,46 @@ mark {
         left: 0%;
     }
 
-    11% {
+    10% {
         left: 0%;
     }
 
-    23% {
+    20% {
         left: -100%;
     }
 
-    33% {
+    30% {
         left: -100%;
     }
 
-    44% {
+    39% {
         left: -200%;
     }
 
-    52% {
+    49% {
         left: -200%;
     }
 
-    69% {
+    59% {
+        left: -300%;
+    }
+
+    68% {
         left: -300%;
     }
 
     78% {
-        left: -300%;
+        left: -400%;
     }
+
+    88% {
+        left: -400%;
+    }
+
+    
+    
+
+
 
 
 
@@ -167,7 +181,7 @@ div#slider figure {
     left: 0;
     text-align: left;
     font-size: 0;
-    animation: 13s slidy infinite;
+    animation: 16s slidy infinite;
 }
 
 .image-slider {
@@ -176,10 +190,7 @@ div#slider figure {
     padding: 40px;
 }
 
-.current-menu-item {
-    color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+
 
 footer {
     text-align: center;
@@ -187,7 +198,7 @@ footer {
     max-height: 200px;
     color: white;
     background-color: #FA824B;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 20px;
     margin: auto;
 
@@ -205,11 +216,10 @@ footer {
 }
 
 .two-small {
-    max-width: 220px;
-    max-height: 800px;
+    max-width: 45%;
     padding: 10px;
     object-position: center;
-    
+
 
 }
 
@@ -255,6 +265,7 @@ a:active {
     color: #FAC550
 }
 
+
 .button {
     max-width: 350px;
     max-height: 120px;
@@ -266,6 +277,15 @@ a:active {
     align-items: center;
     display: inline-block;
     /* Make the boxes sit on the same line */
+}
+
+.attention-grabber {
+    padding: 30px;
+}
+
+.big-images {
+max-width: 95%;
+margin: auto;
 }
 
 
@@ -309,7 +329,7 @@ a:active {
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
     h1 {
         font-size: 55px;
 
