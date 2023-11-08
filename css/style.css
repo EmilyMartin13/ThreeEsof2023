@@ -50,7 +50,8 @@ h1 {
     color: white;
     text-align: left;
     margin: 30px;
-    padding-block: 30px;
+    padding: 30px;
+
     font-family: 'Agbalumo', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -111,6 +112,7 @@ h3 {
 
 .header {
     max-width: 1900px;
+
 }
 
 mark {
@@ -240,13 +242,14 @@ footer {
 }
 
 .page-links {
-
+    max-width: 45%;
     margin: auto;
+
     justify-content: space-between;
-    padding: 20px;
-    border-radius: 25px;
+    padding: 10px;
+    border-radius: 55px;
     background-color: #FA824B;
-    display: inline-block;
+    text-align: center;
 
 }
 
