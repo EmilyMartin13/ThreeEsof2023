@@ -265,9 +265,8 @@ a:active {
     color: #FAC550
 }
 
-
-.button1 {
-    max-width: 350px;
+button.box {
+    max-width: 10%;
     max-height: 120px;
     border-radius: 20px;
     background-color: #FA824B;
@@ -276,102 +275,86 @@ a:active {
     justify-content: space-between;
     align-items: center;
     display: inline-block;
+}
+
+.attention-grabber {
+    padding: 30px;
+}
+
+.big-images {
+    max-width: 95%;
+    margin: auto;
+}
+
+.grid-parent {
+    max-width: 85%;
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    grid-gap: 10px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 
 }
 
-button {
-    max-width: 350px;
-    max-height: 120px;
-    border-radius: 20px;
-    background-color: #FA824B;
-    padding: 10px;
-    margin: 20px;
-    justify-content: space-between;
-    align-items: center;
-    display: inline-block;
+.culture-shock {
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    max-width: 90%;
+}
 
-    .alt-button {
-        background-color: #FAB483
+@media screen and (max-width: 600px) {
+    h1 {
+
+        font-size: 20px;
+        color: black;
     }
 
-    .attention-grabber {
-        padding: 30px;
+    h2 {
+        font-size: 20px;
     }
 
-    .big-images {
-        max-width: 95%;
-        margin: auto;
+    h3 {
+        font-size: 18px;
     }
 
-    .grid-parent {
-        max-width: 85%;
-        display: grid;
-        grid-template-columns: 31% 31% 31%;
-        grid-gap: 10px;
-        margin: auto;
-        padding-left: 10px;
-        padding-right: 10px;
+    p {
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 35px;
 
     }
 
-    .culture-shock {
-        padding: 20px;
-        margin: auto;
-        text-align: center;
-        max-width: 90%;
+    h2 {
+        font-size: 30px;
     }
 
-    @media screen and (max-width: 600px) {
-        h1 {
-
-            font-size: 20px;
-            color: black;
-        }
-
-        h2 {
-            font-size: 20px;
-        }
-
-        h3 {
-            font-size: 18px;
-        }
-
-        p {
-            font-size: 14px;
-        }
+    h3 {
+        font-size: 20px;
     }
 
+    p {
+        font-size: 20px;
+    }
+}
 
-    @media screen and (max-width: 800px) {
-        h1 {
-            font-size: 35px;
+@media screen and (max-width: 1280px) {
+    h1 {
+        font-size: 55px;
 
-        }
-
-        h2 {
-            font-size: 30px;
-        }
-
-        h3 {
-            font-size: 20px;
-        }
-
-        p {
-            font-size: 20px;
-        }
     }
 
-    @media screen and (max-width: 1280px) {
-        h1 {
-            font-size: 55px;
-
-        }
-
-        h3 {
-            font-size: 20px;
-        }
-
-        p {
-            font-size: 18px;
-        }
+    h3 {
+        font-size: 20px;
     }
+
+    p {
+        font-size: 18px;
+    }
+}
